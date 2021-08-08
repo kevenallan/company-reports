@@ -12,19 +12,23 @@ public class ExpenseReport {
         convertToXLS();
     }
 
-    public void createDatabaseConnection() {
-        System.out.println("Creating Database Connection...");
-        connector.createConnection();
-    }
+    // public void createDatabaseConnection() {
+    //     System.out.println("Creating Database Connection...");
+    //     connector.createConnection();
+    // }
 
-    public void executePostgresQuery() {
-        System.out.println("Executing Postgres Query...");
-        String query = "SELECT * FROM expenses";
-        connector.runQuery(query);
-    }
+    // public void executePostgresQuery() {
+    //     System.out.println("Executing Postgres Query...");
+    //     String query = "SELECT * FROM expenses";
+    //     connector.runQuery(query);
+    // }
 
-    public void convertToXLS() {
-        System.out.println("Converting To XLS...");
+    // public void convertToXLS() {
+    //     System.out.println("Converting To XLS...");
+    // }
+
+    public void converter(String arq){
+        System.out.println("Arquivo convertido para XLS");
     }
 
 }
