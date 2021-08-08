@@ -28,7 +28,7 @@ public class ExpenseReport {
     // }
 
     public void converter(String arq){
-        System.out.println("Arquivo convertido para XLS");
+        System.out.println("Arquivo convertido para XLS.");
     }
 
 }
